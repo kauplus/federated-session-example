@@ -1,0 +1,16 @@
+source 'https://rubygems.org'
+
+gem 'rails', '3.2.7'
+
+# Bundle edge Rails instead:
+# gem 'rails', :git => 'git://github.com/rails/rails.git'
+
+gem 'mysql2'
+
+# To use delayed client notifications in devise-oauth2_federated_session
+# gem 'delayed_job_active_record'
+
+gem 'devise-oauth2_federated_session', :path => '/Users/debora/Documents/projetos/infosimples/kauplus/dev/devise-oauth2_federated_session'
+
+# To use debugger
+gem 'debugger'
