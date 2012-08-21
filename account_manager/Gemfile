@@ -8,9 +8,9 @@ gem 'rails', '3.2.7'
 gem 'mysql2'
 
 # To use delayed client notifications in devise-oauth2_federated_session
-# gem 'delayed_job_active_record'
+gem 'delayed_job_active_record'
 
-gem 'devise-oauth2_federated_session', :path => '/Users/debora/Documents/projetos/infosimples/kauplus/dev/devise-oauth2_federated_session'
+gem 'devise-oauth2_federated_session', :git => 'git://github.com/kauplus/devise-oauth2_federated_session.git'
 
 # To use debugger
 gem 'debugger'
